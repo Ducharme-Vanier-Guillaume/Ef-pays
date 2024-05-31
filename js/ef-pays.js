@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     // Afficher un message si aucun article trouvé
                     if (filteredData.length === 0) {
                         let message = document.createElement("p");
+
                         message.textContent = "Aucun article trouvé pour ce pays.";
                         restapi.appendChild(message);
                     }

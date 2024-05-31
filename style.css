@@ -10,16 +10,20 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .les_boutons_categorie2 > button {
   color: var(--couleur2);
 }
 
-.restapi_carte2 {
-  width: 25%;
-  border: 1px solid;
-  border-radius: 1rem;
+.restapi__carte2 {
+  width: 75%;
+}
+@media screen and (min-width: 700px) {
+  .restapi__carte2 {
+    width: 100%;
+  }
 }
 
 .site__main {
@@ -30,8 +34,16 @@
 
 .site__main p {
   color: var(--couleur2);
-  width: 40%;
   text-align: justify;
+}
+
+.p-pays {
+  width: 80%;
+}
+@media screen and (min-width: 700px) {
+  .p-pays {
+    width: 40%;
+  }
 }
 
 .site__main > .wp-block-gallery {
@@ -43,7 +55,7 @@
 
 .vague2 {
   rotate: 180deg;
-  background-color: var(--couleur1);
+  background-color: var(--couleur-arriere-acceuil);
   margin: 0;
   padding: 0;
   margin-bottom: -1rem;
