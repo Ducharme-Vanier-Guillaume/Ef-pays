@@ -1,0 +1,53 @@
+.contenu__restapi{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.les_boutons_categorie2{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.les_boutons_categorie2 > button{
+    color: var(--couleur2);
+}
+
+.restapi_carte2{
+    width: 25%;    
+    border: 1px solid;
+    border-radius: 1rem;
+}
+
+.site__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site__main p{
+    color: var(--couleur2);
+    width: 40%;
+    text-align: justify;
+}
+
+.site__main > .wp-block-gallery{
+    display: flex;
+    width: 72%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.vague2 {
+    rotate: 180deg;
+    background-color: var(--couleur1);
+    margin: 0;
+    padding: 0;
+    margin-bottom: -1rem;
+    width: calc(100% + 1.3px);
+}
+
